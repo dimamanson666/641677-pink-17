@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий  Плахотниченко](https://up.htmlacademy.ru/adaptive/17/user/641677).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Рубец](https://htmlacademy.ru/profile/amator).
 
 ---
 
