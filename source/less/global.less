@@ -1,16 +1,14 @@
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Regular.ttf");
-  src: url("../fonts/OpenSans-Bold.ttf");
-  src: url("../fonts/OpenSans-Light.ttf");
-  font-weight: 400;
-  font-style: normal;
-}
+@bodyfonts: 14px;
+@btnblue: #1d2631;
+@acolor: #ffffff;
+@btngreen: #2aab6d;
 
 body {
+  margin: 0;
+  padding: 0;
   max-width: 320px;
   font-weight: normal;
-  font-size: 14px;
+  font-size: @bodyfonts;
   line-height: 24px;
   font-family: "Open Sans", "Arial", sans-serif;
   color: #283645;
@@ -19,7 +17,7 @@ body {
 
 a {
   display: block;
-  color: #ffffff;
+  color: @acolor;
   text-decoration: none;
 }
 
@@ -33,9 +31,24 @@ a {
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  background-color: #1d2631;
+  background-color: @btnblue;
   border-radius: 28px;
   border: 2px solid #ffffff;
+}
+
+.button-1 {
+  display: block;
+  width: 280px;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  background-color: @btngreen;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .site-list {
