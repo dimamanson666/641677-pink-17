@@ -1,50 +1,50 @@
 .note {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
- 	width: 660px;
- 	min-height: 391px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 660px;
+  min-height: 391px;
   padding-bottom: 100px;
 }
 
 @media (max-width: 660px) {
   .note {
- 	  display: none;
+    display: none;
   }
 }
 
 @media (min-width: 1200px) {
-	.note {
-	  width: 1200px;
- 	  min-height: 391px;
- 	  display: flex;
+  .note {
+    width: 1200px;
+    min-height: 391px;
+    display: flex;
     justify-content: space-around;
     background-color: #f2f2f2;
   }
 }
 
 .note__picture {
-	width: 298px;
-	height: 345px;
-	background-image: url("../img/icon-timer.svg");
+  width: 298px;
+  height: 345px;
+  background-image: url("../img/icon-timer.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .note__picture::before {
-	content: "";
-	position: absolute;
-	width: 253px;
-	height: 253px;
-	top: 69px;
-	left: 22px;
+  content: "";
+  position: absolute;
+  width: 253px;
+  height: 253px;
+  top: 69px;
+  left: 22px;
   background-image: url("../img/icon-editor-diagram-fill.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .note__picture::after {
-	content: "24";
+  content: "24";
   position: absolute;
   width: 237px;
   height: 253px;
@@ -56,18 +56,18 @@
 
 @media (min-width: 660px) {
   .note__picture::before {
-	  content: "";
-	  position: absolute;
-	  width: 253px;
-	  height: 253px;
-	  top: 69px;
-	  left: 21px;
+    content: "";
+    position: absolute;
+    width: 253px;
+    height: 253px;
+    top: 69px;
+    left: 21px;
     background-image: url("../img/icon-editor-diagram-fill.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
   .note__picture::after {
-	  content: "24";
+    content: "24";
     position: absolute;
     width: 237px;
     height: 253px;
@@ -80,18 +80,18 @@
 
 @media (min-width: 1200px) {
   .note__picture::before {
-	  content: "";
-	  position: absolute;
-	  width: 253px;
-	  height: 253px;
-	  top: 69px;
-	  left: 168px;
+    content: "";
+    position: absolute;
+    width: 253px;
+    height: 253px;
+    top: 69px;
+    left: 168px;
     background-image: url("../img/icon-editor-diagram-fill.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
   .note__picture::after {
-	  content: "24";
+    content: "24";
     position: absolute;
     width: 237px;
     height: 253px;
@@ -103,5 +103,5 @@
 }
 
 .note__features {
-	width: 320px;
+  width: 320px;
 }

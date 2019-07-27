@@ -1,5 +1,5 @@
 .footer-page {
-  width: 320px;
+  display: flex;
 }
 
 @media (max-width: 660px) {
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     width: 660px;
-  }
+}
 }
 
 @media (min-width: 1200px) {
@@ -20,10 +20,14 @@
     display: flex;
     justify-content: space-around;
     width: 1200px;
-  }
+}
 }
 
 .footer__social-list {
-	display: flex;
-  justify-content: space-around;
+  display: flex;
+  list-style-type: none;
+}
+
+.footer__social-item {
+  padding: 0 28px;
 }
