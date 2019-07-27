@@ -1,3 +1,13 @@
+.photo__best {
+  background-color: #f2f2f2;
+  width: 280px;
+  margin-left: 21px;
+}
+
+.photo__author-best {
+  margin-left: -21px;
+}
+
 .photo__item {
   background-color: #f2f2f2;
   width: 281px;
@@ -7,23 +17,50 @@
   position: relative;
 }
 
-.photo__autor-picture--best {
-  position: absolute;
-  width: 320px;
-  height: 243px;
-  background-image: url("../img/panorama-mobile@1x.jpg");
-  background-repeat: no-repeat;
+@media (min-width: 660px) {
+  .photo__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
+@media (min-width: 1200px) {
+  .photo__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.photo__author-image {
+
+}
 .photo__like {
   color: #d22856;
 }
 
 .photo__wrapper {
-  width: 293px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0 auto;
+  width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 660px) {
+  .photo__wrapper {
+    width: 620px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo__wrapper {
+    width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
 }
 
 .photo__title {
@@ -33,4 +70,10 @@
   color: #000000;
   line-height: 30px;
   text-align: center;
+}
+
+@media (min-width: 660px) {
+  .photo__title {
+    width: 660px;
+  }
 }
