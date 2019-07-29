@@ -1,17 +1,21 @@
 .price {
-  width: 320px;
+  /*width: 320px;*/
   background-color: #f2f2f2;
 }
 
-@media (min-width: 660px) {
+@media (min-width: @tablet-width) {
   .price {
-    width: 660px;
+    /*width: 660px;*/
     margin-bottom: 48px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: @desktop-width) {
   .price {
-    width: 1200px;
+    /*width: 1200px;*/
   }
+}
+
+.price__list {
+  margin: auto;
 }
