@@ -1,8 +1,31 @@
+.main-nav__list {
+  margin: 0;
+}
+
 .main-nav__picture {
-  width: 320px;
-  height: 176px;
+  /*width: 320px;*/
+  height: 170px;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: @tablet-width) {
+  .main-nav__picture {
+    /*width: 660px;*/
+    height: 329px;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .main-nav__picture {
+    /*width: 1200px;*/
+    height: 280px;
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-repeat: no-repeat;
+  }
 }
 
 .main-nav__page-title {

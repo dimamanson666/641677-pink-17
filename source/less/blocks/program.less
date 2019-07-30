@@ -10,9 +10,31 @@
   background-color: #1d2631;
 }
 
+@media (min-width: @tablet-width) {
+  .program {
+    position: absolute;
+    top: 11%;
+    left: 9px;
+    background: transparent;
+    width: 320px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .program {
+    position: absolute;
+    top: 11%;
+    left: 12%;
+    background: transparent;
+    width: 320px;
+  }
+}
+
 .program__list {
   display: flex;
   justify-content: space-around;
+  width: 320px;
+  margin: auto;
 }
 
 .program__item {
@@ -20,26 +42,28 @@
   list-style-type: none;
 }
 
-.program__link--apple {
-  background-image: url("../img/logo-apple.svg");
-  width: 46px;
-  height: 57px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
+.program__link {
+  &--apple {
+    background-image: url("../img/logo-apple.svg");
+    width: 46px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
-.program__link--android {
-  background-image: url("../img/logo-android.svg");
-  width: 42px;
-  height: 47px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
+  &--android {
+    background-image: url("../img/logo-android.svg");
+    width: 42px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 
-.program__link--windows {
-  background-image: url("../img/logo-microsoft.svg");
-  width: 44px;
-  height: 42px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
+  &--windows {
+    background-image: url("../img/logo-microsoft.svg");
+    width: 44px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
 }
