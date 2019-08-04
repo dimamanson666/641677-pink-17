@@ -18,40 +18,53 @@
 
 @media (min-width: @desktop-width) {
   .page-header {
-    /* Временно для сетки */
     background-color: #283645;
     /*width: 1200px;*/
   }
 }
 
-@media (min-width: @tablet-width) {
+/*@media (min-width: @tablet-width) {
   .page-header__wrapper {
     width: 620px;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin: auto; */
+    margin: auto;
   }
-}
+}*/
 
 @media (min-width: @desktop-width) {
   .page-header__wrapper {
-    width: 920px;
+    width: 940px;
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
   }
+}
+@media (min-width: @tablet-width) {
+.page-header__logo-wrapper {
+  width: 150px;
+  height: 53px;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-bottom: 39px;
+}
+}
+.page-header__logo-image {
+  padding-top: 21px;
+  padding-left: 21px;
 }
 
 .page-header__logo {
   min-height: 70px;
+  width: 96px;
 }
 
 @media (min-width: @tablet-width) {
   .page-header__logo {
-    /* Временно для сетки */
-    min-height: 110px;
     background-color: #283645;
-    /*width: 660px;*/
+    width: 150px;
     background-image: url("../img/logo-pink-white-tablet.svg");
     background-repeat: no-repeat;
   }
@@ -65,10 +78,9 @@
 
 @media (min-width: @desktop-width) {
   .page-header__logo {
-    /* Временно для сетки */
-    min-height: 110px;
     background-color: #283645;
     background-image: url("../img/logo-pink-white-desktop.svg");
     background-repeat: no-repeat;
+    margin-top: 14px;
   }
 }

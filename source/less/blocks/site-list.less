@@ -4,8 +4,20 @@
 }
 
 .site-list__item {
-  padding: 7px;
+  padding: 22px;
+  font-size: 18px;
+  line-height: 32px;
   list-style-type: none;
   border-top: 1px solid #485461;
   border-bottom: 1px solid #000000;
 }
+
+@media (min-width: @desktop-width) {
+
+  .site-list__item {
+    border: none;
+    padding-top: 43px;
+  }
+}
+
+

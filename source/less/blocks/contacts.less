@@ -82,3 +82,33 @@
     display: none;
   }
 }
+
+.contacts__map {
+    padding-bottom: 110%;
+    position: relative;
+    height: 0;
+}
+
+@media (min-width: @tablet-width) {
+  .contacts__map {
+    padding-bottom: 54%;
+    position: relative;
+    height: 0;
+}
+}
+
+@media (min-width: @desktop-width) {
+  .contacts__map {
+    padding-bottom: 41%;
+    position: relative;
+    height: 0;
+}
+}
+
+.contacts__map iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

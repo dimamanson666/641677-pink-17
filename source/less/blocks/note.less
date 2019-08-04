@@ -31,7 +31,7 @@
   padding-bottom: 100px;
 }
 
-@media (max-width: @tablet-width) {
+@media (max-width: @mobile-width-only) {
   .note {
     display: none;
   }
@@ -130,4 +130,11 @@
 
 .note__features {
   width: 320px;
+}
+
+@media (min-width: @tablet-width) {
+.note__features {
+    width: 304px;
+    margin-top: 95px;
+}
 }
